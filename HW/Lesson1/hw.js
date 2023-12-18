@@ -4,4 +4,5 @@ let c = a + b;
 
 console.log(a + b);
 console.log(a + c);
+
 console.log(c + b);
