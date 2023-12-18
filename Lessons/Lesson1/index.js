@@ -1,0 +1,10 @@
+console.log("2");
+let a = 5;
+console.log(a);
+console.log(a + "1");
+console.log(5 * 6);
+let b = 10;
+console.log(a * b);
+console.log(a / b);
+console.log(a - b);
+console.log(a + b);
