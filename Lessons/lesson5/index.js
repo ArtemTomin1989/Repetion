@@ -23,6 +23,7 @@ if (x > 5 && y > 5) {
   console.log("nine");
 }
 
+//   "||" - or ( або)
 if (x > 5 || y > 5) {
   console.log("war");
 } else {
