@@ -1,3 +1,4 @@
-lesson7 - цикли
+lesson7 - цикли while and do while
 8 - цикли
 9- цикли
+10 - свіч кейс
