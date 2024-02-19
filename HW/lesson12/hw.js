@@ -1,9 +1,15 @@
 function logpass(logg, pass) {
   if (logg.length > 4 && pass.length > 6) {
-    console.log(`ваш логін ${logg} і ваш пароль ${pass}`);
     return `ваш логін ${logg} і ваш пароль ${pass}`;
   } else {
-    return "error";
+    let result = "";
+    if (logg.length <= 4) {
+      result += "Логін повинен містити більше 4 символів.";
+    }
+    if (logg.length <= 6) {
+      result += "Пароль повинен містити більше 6 символів.";
+    }
+    return result;
   }
 }
-logpass("Art", "Tomin");
+logpass("Artem", "Tomin123");
