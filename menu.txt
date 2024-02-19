@@ -3,3 +3,4 @@ lesson7 - цикли while and do while
 9- цикли
 10 - свіч кейс
 11 - функція
+12 - return і length
