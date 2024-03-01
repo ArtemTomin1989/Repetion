@@ -1,10 +1,8 @@
 function cheking(a) {
-  let result = a ** 2;
   if (a % 2 == 0) {
-    return result;
+    return a**2;
   } else {
-    result *= a;
-    return result;
+    return a**3;
   }
 }
 

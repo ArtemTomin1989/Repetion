@@ -25,8 +25,8 @@ console.log(logpass("usr", "pass")); // Логін повинен містити
 let a = logpass("basas", "olololo");
 console.log(a);
 
-let b = (logg, pass) => {
+let arrowFunc = (logg, pass) => {
   console.log(logg, pass);
   return logg + pass;
 };
-console.log(b(2, 3));
+console.log(arrowFunc(2, 3));
