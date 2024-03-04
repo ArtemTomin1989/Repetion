@@ -12,5 +12,5 @@ for (let i = 0; i <= 20; i++) {
 let star = "*";
 for (let i = 0; i < 5; i++) {
   console.log(star);
-  star = star + "*";
+  star += "*";
 }
