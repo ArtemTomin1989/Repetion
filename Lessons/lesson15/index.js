@@ -1,5 +1,5 @@
-let arr = [5, 66666666, 7, 2, 3, 56, "7"];
-
+let arr = [7,66666666, 7, 2, 3, 56, "7"];
+console.log(arr.length);
 for (let i = 0; i < arr.length; i++) {
   console.log(arr[i]);
 }

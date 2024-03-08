@@ -1,9 +1,7 @@
 let pm = [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5];
 
-for (let i = 0; i < pm.length; i++) {
+for (let i = 0; i < pm.length; i++) { //i = 0 -перший елемент масиву ( завжди 0, починається з нуля а не з одиниці)
   if (pm[i] > 0) {
-    console.log(pm[i]);
-  } else {
     console.log(pm[i]);
   }
 }
