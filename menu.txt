@@ -11,3 +11,4 @@
 15 - масив
 16 - масив
 17 - методи масиву (push,pop,shift)
+18 - методи (tolowercase,touppercase, sorts, reverse)
