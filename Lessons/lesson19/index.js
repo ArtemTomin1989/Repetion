@@ -14,3 +14,4 @@ function print_array(arr) {
   return result;
 }
 console.log(print_array(array));
+
