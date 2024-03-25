@@ -1,27 +1,33 @@
-// 1 завдання
-// Напишіть програму для обчислення факторіалу числа. Програма повинна враховувати такі умови:
-// - Якщо введене число є від'ємним або дорівнює нулю, результат обчислення буде 1.
-// - Факторіал невід'ємного цілого числа n - це добуток всіх невід'ємних цілих чисел менших або рівних n.
-// -Також потрібно для кожного виводу зробити гарне пояснення, що саме обчислили і що вийшло.
+let arr_num = [2, 5, 78, 54, 236, 100, 216];
+arr_num.sort();
+console.log(arr_num);
+arr_num.sort(function (a, b) {
+  return a - b;  //істинне сортування чисел
+});
+console.log(arr_num);
 
-function factorial(num) {
-  let result = 1;
-  if (num > 0) {
-    for (let i = 1; i <= num; i++) {
-      result *= i;
+let a = 5;
+let b = `wer`;
+
+console.log(typeof a);
+
+console.log(typeof b);
+
+console.log(typeof arr_num);
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+function big_string(array) {
+  let result = [];
+  for (i = 0; i < array.length; i++) {
+    if (typeof array[i] === "string") {
+      result.push(array[i].toUpperCase());
     }
   }
+  result.sort();
   return result;
 }
 
-console.log(factorial(-5));
+let arr_num_words = ["wer", 5, "apples", 65, "cheese", 100, "art", "Bombarda"];
 
-////////////////////////////////////////////////////////////////////////////
-
-let secret = 100;
-
-for (i = 0; i <= secret; i++) {
-  console.log(i);
-  let pet = secret - i;
-  console.log(`${i} + ${pet} = ${secret}`);
-}
+console.log(big_string(arr_num_words));

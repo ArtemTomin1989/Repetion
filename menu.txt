@@ -13,4 +13,5 @@
 17 - методи масиву (push,pop,shift)
 18 - методи (tolowercase,touppercase, sorts, reverse)
 19 - повторення методів масиву
-20 - 
+тест 1
+20 - істинне сортування чисел sort (function (a, b) {return a - b;})

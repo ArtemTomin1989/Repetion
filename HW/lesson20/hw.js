@@ -1,18 +1,20 @@
-let a = 5;
-let b = 3;
-let result = 1;
-if (a % 2 == 0 && b % 2 == 0) {
-  if (a > b) {
-    console.log(a);
-  } else {
-    console.log(b);
+function sortMixedArray(array) {
+  let numbers = [];
+  let words = [];
+
+  for (let i = 0; i < array.length; i++) {
+    if (typeof array[i] === "number") {
+      numbers.push(array[i]);
+    } else if (typeof array[i] === "string") {
+      words.push(array[i].toUpperCase());
+    }
   }
-} else if (a % 2 !== 0 && b % 2 !== 0) {
-  if (a < b) {
-    console.log(a);
-  } else {
-    console.log(b);
-  }
-} else if (a % 2 !== 0 || b % 2 !== 0) {
-  console.log(a ** b);
+
+  numbers.sort((a, b) => a - b); // Сортування чисел за зростанням
+  words.sort(); // Сортування слів в алфавітному порядку
+
+  return numbers.concat(words);
 }
+
+let arr = [58, "wer", "bomba", "343", 11, "cran", 8];
+console.log(sortMixedArray(arr));
