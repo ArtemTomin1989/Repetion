@@ -19,7 +19,7 @@ console.log(typeof arr_num);
 
 function big_string(array) {
   let result = [];
-  for (i = 0; i < array.length; i++) {
+  for (let i = 0; i < array.length; i++) {
     if (typeof array[i] === "string") {
       result.push(array[i].toUpperCase());
     }
