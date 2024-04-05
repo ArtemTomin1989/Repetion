@@ -1,14 +1,11 @@
 function reverseLetters(array) {
-  let result = [];
   let reversed = [];
   for (i = 0; i < array.length; i++) {
     reversed.push(array[i]);
-    result.push(reversed);
-    console.log(re);
-    result.push(array[i])
   }
+  reversed.reverse();
+  let result = reversed.concat(array);
+  return result;
 }
-
 let arr_letters = ["a", "b", "c"];
-
-reverseLetters(arr_letters);
+console.log(reverseLetters(arr_letters));
