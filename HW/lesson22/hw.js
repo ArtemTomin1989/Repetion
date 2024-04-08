@@ -1,10 +1,9 @@
 function num(arr_1, arr_2) {
   let new_array = arr_1.concat(arr_2);
-  console.log(new_array);
+  let new_arr = [...arr_1, ...arr_2]; // ++ кращий метод
   new_array.sort(function (a, b) {
     return b - a;
   });
-  console.log(new_array);
   return new_array;
 }
 
