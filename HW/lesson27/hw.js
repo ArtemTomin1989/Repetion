@@ -1,11 +1,14 @@
+let users = [
+  { name: "john", age: 10 },
+  { name: "sarah", age: 50 },
+];
 function cheking(new_user) {
-  let users = [];
-  if (new_user.age > 18) {
+  if (new_user.age >= 18) {
     users.push(new_user);
   }
   return users;
 }
 
-new_u = { name: "john", age: 19 };
+let new_u = { name: "john", age: 18 };
 
 console.log(cheking(new_u));

@@ -1,6 +1,6 @@
 let arr = [53, 62, 102, 20, 12, 30, 123, 53, 62, 102, 20, 12, 30, 21, 15, 73];
 
-let new_array = arr.map((element) => element + 2); // дає можливість змінити кожний окремого елементу масиву
+let new_array = arr.map((element) => element + 2); // дає можливість змінити кожний окремий елемент масиву
 console.log(new_array);
 
 console.log(typeof new_array[0]);
