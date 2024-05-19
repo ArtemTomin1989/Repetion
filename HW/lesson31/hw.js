@@ -11,4 +11,19 @@ function joining(persons, new_person) {
   return mid_age;
 }
 
-console.log(joining(users, new_user));
+// console.log(joining(users, new_user));
+
+function randomWord(len) {
+  let result = "";
+  const character =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  for (let i = 0; i < len; i++) {
+    result += character.charAt(Math.floor(Math.random() * character.length));
+  }
+  return result;
+}
+
+let lnth = joining(users, new_user);
+console.log(lnth);
+
+console.log(randomWord(lnth));
