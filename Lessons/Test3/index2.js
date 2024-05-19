@@ -8,9 +8,10 @@ function pass_length(all_users) {
     result = all_users[i].age / all_users[i].name.length;
     result = Math.floor(result);
     let random = randomWord(result);
+    all_users[i].password = random;
     console.log(random);
   }
-  return result;
+  return all_users;
 }
 console.log(pass_length(all_persons));
 
